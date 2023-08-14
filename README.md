@@ -1,15 +1,6 @@
-# react-portfolio
-Project portfolio utilizing REACT
+# Nolan Naphys React Portfolio
+## Description
+A professional portfolio built using React. The portfolio contains links to my completed projects, a resume of skills and know technologies, and has ways to reach out and contact me.
 
-
-<!-- # React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
- -->
-
- <!-- MERN week 00 activity has useful code to look at -->
+## License
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
