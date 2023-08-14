@@ -13,7 +13,7 @@ export default function Resume() {
                         <li>CSS</li>
                         <li>Bootstrap</li>
                         <li>React</li>
-                        <li>Java</li>
+                        <li>Java Script</li>
                     </ul>
                 </section>
                 <section className="back-end">
@@ -27,6 +27,16 @@ export default function Resume() {
                         <li>MIPS</li>
                         <li>MongoDB</li>
                         <li>Mongoose</li>
+                    </ul>
+                </section>
+                <section className="back-end">
+                    <h4>Additional Technologies</h4>
+                    <ul className="back-list">
+                        <li>Github</li>
+                        <li>VS Code</li>
+                        <li>Git Bash</li>
+                        <li>JQuery</li>
+                        <li>Heroku</li>
                     </ul>
                 </section>
             </body>

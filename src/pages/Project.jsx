@@ -37,7 +37,7 @@ export default function Project() {
     
 return(
     <section>
-        <h3 className="project-name">My Projects</h3>
+        <h3>My Projects</h3>
         <ul className="projects">
             {
                 projects.map((project, i) => (
@@ -48,8 +48,8 @@ return(
                             <div className="project-title">
                                 <a href={project.websiteLink} style={{color: "38220f"}}>{project.name}</a>
                         </div>
-                        <a href={project.githubLink}><img src={githubLogo} className="github-image" alt="github logo"></img></a>
                         <p>{project.description}</p>
+                        <a href={project.githubLink}><img src={githubLogo} className="github-image" alt="github logo"></img></a>
                         </div>
                     </div>
                     </li>

@@ -22,15 +22,7 @@ function Nav(){
                     to='/project'
                     className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
                 >
-                    Portfolio
-                </Link>
-            </li>
-            <li className="nav-item">
-                <Link
-                    to='/contact'
-                    className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
-                >
-                    Contact
+                    Projects
                 </Link>
             </li>
             <li className="nav-item">
@@ -39,6 +31,14 @@ function Nav(){
                     className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
                 >
                     Resume
+                </Link>
+            </li>
+            <li className="nav-item">
+                <Link
+                    to='/contact'
+                    className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
+                >
+                    Contact
                 </Link>
             </li>
         </ul>

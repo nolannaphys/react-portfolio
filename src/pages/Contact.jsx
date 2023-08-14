@@ -8,15 +8,15 @@ const Contact = () => {
         <div class="contactDiv">
             <h1 class="contactTitle">Contact Me</h1>
             <h2 class="contactText">
-                <a> Email: nolannaphys@gmail.com</a>
+                <a>  nolannaphys@gmail.com</a>
             </h2>
-            <h2>
+            <h2 class="contactText">
                 <a href='https://github.com/nolannaphys'>Github</a>
             </h2>
-            <h2>
+            <h2 class="contactText">
                 <a href='https://www.linkedin.com/in/nolan-naphys-633934194/'>LinkedIn</a>
             </h2>
-            <h2>
+            <h2 class="contactText">
                 <a href='https://stackoverflow.com/users/22389991/nolan-naphys'>Stack Overflow</a>
             </h2>
             <h2 class="contactText contactBottom"></h2>

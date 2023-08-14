@@ -9,6 +9,7 @@
 .contactText {
     color: rgb(0, 0, 0);
     margin-bottom: 1em;
+    font-family: 'helvetica neue';
 }
 .contactTitle {
     color: rgb(0, 0, 0);
@@ -16,6 +17,11 @@
     font-weight: 600;
     padding-top: 25px;
     padding-bottom: 15px;
+}
+
+a:link, a:visited {
+    color: rgb(0, 0, 0);
+    font-family: 'Helvetica neue';
 }
 
 textarea {
