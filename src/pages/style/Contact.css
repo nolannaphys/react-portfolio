@@ -1,51 +1,20 @@
-.contactOuterDiv {
-    display: flex;
-    flex-direction: column;
-    margin: 5vh 0;
-}
-.contactDiv {
-    margin: auto;
-}
-.contactText {
-    color: rgb(0, 0, 0);
-    margin-bottom: 1em;
-    font-family: 'helvetica neue';
-}
-.contactTitle {
-    color: rgb(0, 0, 0);
-    font-family: 'helvetica neue', helvetica, sans-serif;
-    font-weight: 600;
-    padding-top: 25px;
-    padding-bottom: 15px;
+h3 {
+    padding-left: 40px;
+    padding-top: 20px;
 }
 
-a:link, a:visited {
-    color: rgb(0, 0, 0);
-    font-family: 'Helvetica neue';
+form {
+    padding: 40px;
 }
 
-textarea {
-    height: 8em;
-    width: 50vw;
+.btn{
+    margin-top: 20px;
+    background-color: aliceblue;
+    color: black;
+    border: none;
 }
-@media (min-width: 60em) {
-    .contactOuterDiv {  
-        display: flex;
-        flex-direction: row;
-        margin: 15vh 0;
-    }
-    .contactOuterDiv > * {
-        flex-basis: 70%;
-    }
-    .formComponent {
-        margin-right: 15vw;
-    }
-    .contactDiv {
-        margin-left: 15vw;
-    }
-}
-@media (min-width: 60em) {
-    footer {
-        margin-top: 29vh;
-    }
+
+.btn:hover{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
 }

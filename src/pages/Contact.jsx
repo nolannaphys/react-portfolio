@@ -1,26 +1,78 @@
 import { useState } from 'react';
-// NOTE - The line below is here for future development. 
-// import { validateEmail, validateMessage, validateName } from '../utils/helpers';
+import { validateEmail, validateMessage, validateName } from '../utils/helpers';
 import './style/Contact.css'
 
-const Contact = () => {
+function Form() {
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+    const [errorMessage, setErrorMessage] = useState('');
+
+    const handleInputChange = (e) => {
+        const { target } = e;
+        const inputType = target.name;
+        const inputValue = target.value;
+
+        if (inputType === 'name') {
+            setName(inputValue);
+        } else if (inputType === 'email') {
+            setEmail(inputValue);
+        } else if (inputType === 'message') {
+            setMessage(inputValue);
+        }
+    };
+
+    const handleFormSubmit = (e) => {
+        e.preventDefault();
+
+        if (!validateName(name)) {
+            setErrorMessage('Please enter your name.');
+            return;
+        }
+        if (!validateEmail(email)) {
+            setErrorMessage('Please enter a valid email address.');
+            return;
+        }
+        if (!validateMessage(message)) {
+            setErrorMessage('Please enter a message.');
+            return;
+        }
+    };
+
     return (
-        <div class="contactDiv">
-            <h1 class="contactTitle">Contact Me</h1>
-            <h2 class="contactText">
-                <a>  nolannaphys@gmail.com</a>
-            </h2>
-            <h2 class="contactText">
-                <a href='https://github.com/nolannaphys'>Github</a>
-            </h2>
-            <h2 class="contactText">
-                <a href='https://www.linkedin.com/in/nolan-naphys-633934194/'>LinkedIn</a>
-            </h2>
-            <h2 class="contactText">
-                <a href='https://stackoverflow.com/users/22389991/nolan-naphys'>Stack Overflow</a>
-            </h2>
-            <h2 class="contactText contactBottom"></h2>
-        </div>
-    )
+        <>
+            <h3>Contact</h3>
+            <form onSubmit={handleFormSubmit}>
+                <div>
+                    <label className='form-label'>Name</label>
+                    <input className='form-control' style={{ width: '20rem' }}
+                        value={name} name='name'
+                        onChange={handleInputChange}
+                        type='text'
+                    />
+                    <label className='form-label'>Email</label>
+                    <input className='form-control' style={{ width: '20rem' }}
+                        value={email}
+                        name='email'
+                        onChange={handleInputChange}
+                        type='email'
+                    />
+                    <label className='form-label'>Message</label>
+                    <textarea className='form-control' style={{ width: '20rem' }}
+                        value={message}
+                        name='message'
+                        onChange={handleInputChange}
+                        type='text' />
+                    <button type='submit' className='btn btn-primary'>Submit</button>
+                </div>
+            </form>
+            {errorMessage && (
+                <div className='error'>
+                    <p className='error-text'>{errorMessage}</p>
+                </div>
+            )}
+        </>
+    );
 }
-export default Contact
+
+export default Form;
