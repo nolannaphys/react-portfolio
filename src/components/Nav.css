@@ -1,0 +1,47 @@
+.bar {
+    background-color: black;
+}
+
+.title {
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav {
+    padding-top: 50px;
+    display: flex; 
+    justify-content: space-around;
+}
+
+.nav-pills .nav-item .nav-link {
+    background-color: #0000FF;
+    color: #ffffff;
+  }
+
+  .nav-pills .nav-item .nav-link:hover {
+    background-color:navy;
+  }
+
+
+  @media screen and (max-width: 992px){
+    .nav-pills .nav-item .nav-link {
+        width: auto;
+    }
+  }
+
+  @media screen and (max-width: 768px){
+    .title {
+       display: flex;
+       justify-content: center;
+       padding-right: 0px;
+       font-size: 40px;
+    }
+
+    .nav-pills .nav-item .nav-link {
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+        width: auto
+      }
+}
