@@ -1,26 +1,36 @@
 .profile {
-    width: 12em;
+    height: 20em;
+    width: auto;
     border-radius: 60%;
     float: left;
     padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
 }
 
 .bio {
+    font-size: 25px;
     padding-top: 40px;
     padding-right: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
 }
 
 h3 {
-   font-family: 'helvetica neue';
+    font-family: 'helvetica';
+    font-weight: 700;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-top: 15px;
 }
 
 body {
-    background-color: black;
-    color: white;
-    font-family: 'american typewriter';
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'helvetica neue';
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .bio {
         padding-top: 16px;
         padding-left: 30px;

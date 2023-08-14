@@ -1,21 +1,25 @@
 .bar {
-    background-color: black;
+    background-color: rgb(54, 101, 255);
 }
 
 .title {
-    font-size: 30px;
+    font-size: 75px;
     text-align: left;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'impact';
+    color: rgb(255, 255, 255);
 }
 
 .nav {
     padding-top: 50px;
+    padding-bottom: 50px;
     display: flex; 
     justify-content: space-around;
 }
 
 .nav-pills .nav-item .nav-link {
-    background-color: #0000FF;
+    font-size: 25px;
+    font-family: 'helvetica';
+    background-color: #002fae;
     color: #ffffff;
   }
 
