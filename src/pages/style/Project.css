@@ -1,0 +1,66 @@
+section ul {
+    list-style: none;
+}
+
+.github-image {
+    width: 2em;
+}
+
+.image {
+    width: 37em;
+}
+
+.project-title {
+    font-size: 30px;
+}
+
+a:link, a:visited {
+    color: #38220f;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-section {
+    position: relative;
+    margin: 5px;
+}
+
+.project-info {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: #c78752;
+    visibility: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.project-section:hover .project-info {
+    visibility: visible;
+    opacity: 0.9;
+}
+
+@media screen and (max-width: 768px){
+    .image {
+        width: 22rem;
+    }
+
+    .projects {
+        padding-right: 35px;
+    }
+
+    .project-title { 
+        font-size: 20px;
+    }
+
+    .github-image {
+        width: 1.5em;
+    }
+}

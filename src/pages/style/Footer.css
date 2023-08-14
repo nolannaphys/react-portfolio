@@ -1,0 +1,10 @@
+.logo {
+    width: 3em;
+    padding-bottom: 2.5rem;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

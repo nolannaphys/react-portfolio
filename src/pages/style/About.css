@@ -1,0 +1,28 @@
+.profile {
+    width: 12em;
+    border-radius: 60%;
+    float: left;
+    padding-left: 15px;
+}
+
+.bio {
+    padding-top: 40px;
+    padding-right: 18px;
+}
+
+h3 {
+   font-family: 'american typewriter';
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'american typewriter';
+}
+
+@media screen and (max-width: 768px){
+    .bio {
+        padding-top: 16px;
+        padding-left: 30px;
+    }
+}
