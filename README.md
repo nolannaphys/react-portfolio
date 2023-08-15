@@ -16,5 +16,7 @@ A professional portfolio built using React. The portfolio contains links to my c
 
 ## Links
 
-Deployed Site
+[Deployed Site](https://nolannaphys-react-portfolio.netlify.app/)
+
+[Personal Github](https://github.com/nolannaphys)
 
