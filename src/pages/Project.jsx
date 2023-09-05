@@ -2,6 +2,7 @@ import githubLogo from '../assets/github.svg.png'
 import './style/Project.css'
 import parkBrew from '../assets/park-brew.png'
 import critterTracker from '../assets/critter-tracker.png'
+import movieVault from '../assets/movie-vault.png'
 
 export default function Project() {
     const projects = [
@@ -19,13 +20,13 @@ export default function Project() {
             description: "Critter Tracker is a platform that enables users to create profiles and share information about animals through pictures and descriptions. It utilizes a database to store and retrieve user data, including profiles and uploaded animal content.",
             image: critterTracker
         },
-        // {
-        //     name: "",
-        //     githubLink: "",
-        //     websiteLink: "",
-        //     description: "",
-        //     image: 
-        // },
+        {
+            name: "Movie Vault",
+            githubLink: "https://github.com/nolannaphys/movie-vault",
+            websiteLink: "https://movie-vault-a6d86baeac1b.herokuapp.com/",
+            description: "Movie Vault is a react application that uses the OMDb to allow users to search for movies so that they can view a quick plot summary and it's director. The application also allows for users to add movies to a watchlist for later reference. User lists are tied to their login, so they are able to view their lists from any device.",
+            image: movieVault
+        },
         // {
         //     name: "",
         //     githubLink: "",
