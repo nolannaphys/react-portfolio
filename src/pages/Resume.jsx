@@ -13,7 +13,6 @@ export default function Resume() {
                         <li>CSS</li>
                         <li>Bootstrap</li>
                         <li>React</li>
-                        <li>Java Script</li>
                     </ul>
                 </section>
                 <section className="back-end">
