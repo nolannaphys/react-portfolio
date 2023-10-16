@@ -1,6 +1,6 @@
 import githubLogo from '../assets/github.svg.png'
 import linkedinLogo from '../assets/linkedin-logo.webp'
-import stackOverflowLogo from '../assets/stackoverflow.png'
+// import stackOverflowLogo from '../assets/stackoverflow.png'
 import './style/Footer.css'
 
 export default function Footer(){

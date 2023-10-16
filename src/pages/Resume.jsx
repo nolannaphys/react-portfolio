@@ -1,9 +1,15 @@
-// NOTE - Be sure to include a link to resume when finished.
+import { Link } from 'react-router-dom';
 import './style/Resume.css'
 export default function Resume() {
     return (
         <>
-            <h3>Resume</h3>
+            <h3>
+                {/* <Link
+                    to='https://docs.google.com/document/d/1ULGLeme-m5oNcPgUwd8IWijgIq4D1OmPTb5lnocbqDQ/edit?usp=sharing'>
+                    <h3>Resume</h3>
+                </Link> */}
+                Resume
+            </h3>
             <body>
                 <section className="front-end">
                     <h4>Front-End Skills</h4>
