@@ -6,9 +6,10 @@
 }
 
 .footer {
+    margin-top: auto;
     position: relative;
     bottom: 0;
     width: 100%;
-    background-color: rgb(54, 101, 255);
+    background-color: rgb(27, 27, 27);
 
 }

@@ -1,8 +1,8 @@
 .bar {
-    background-color: rgb(54, 101, 255);
+    background-color: rgb(27, 27, 27);
 }
 
-.title {
+.navTitle {
     font-size: 75px;
     text-align: left;
     font-family: 'impact';
@@ -19,12 +19,12 @@
 .nav-pills .nav-item .nav-link {
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
-    background-color: #002fae;
+    background-color: rgb(27, 27, 27);
     color: #ffffff;
   }
 
   .nav-pills .nav-item .nav-link:hover {
-    background-color:navy;
+    background-color:rgb(36, 36, 36);
   }
 
 

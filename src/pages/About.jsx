@@ -5,7 +5,7 @@ export default function About() {
     return (
         <>
             <div className="about-me">
-                <h3>About me</h3>
+                <h3 className='aboutTitle'>About me</h3>
                 <img src={profilePic} className="profile" alt="Nolan Profile Picture"></img>
                 <p className='bio'>Hello, I'm Nolan Naphys, a dedicated and creative full-stack web developer with a passion for crafting digital experiences that blend functionality with aesthetics. 
                 {/* My journey into the world of programming began at the prestigious coding boot camp hosted by the University of Pennsylvania, where I honed my skills in both front-end and back-end technologies.

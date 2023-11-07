@@ -17,8 +17,16 @@
     font-weight: 700;
 }
 
+.aboutTitle {
+    font-family: 'impact';
+    font-weight: 700;
+    font-size: 40px;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+
 h3 {
-    font-family: 'helvetica';
+    font-family: 'impact';
     font-weight: 700;
     font-size: 30px;
     padding-left: 50px;
@@ -26,7 +34,7 @@ h3 {
 }
 
 body {
-    background-color: rgb(202, 241, 254);
+    background-color: beige;
     color: rgb(0, 0, 0);
     font-family: 'helvetica neue';
 }

@@ -8,7 +8,7 @@ function Nav(){
         <>
         <div className='bar'>
         <ul className="nav nav-pills justify-content-space-between flex-column flex-md-row">
-        <header className="title">Nolan Naphys</header>
+        <header className="navTitle">Nolan Naphys</header>
             <li className="nav-item">
                 <Link
                     to='/about'
@@ -33,14 +33,14 @@ function Nav(){
                     Resume
                 </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
                 <Link
                     to='/contact'
                     className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
                 >
                     Contact
                 </Link>
-            </li>
+            </li> */}
         </ul>
         </div>
         </>
